@@ -1,2 +1,2 @@
 # SwiftApp
-Example of how to change iOS App icons programmatically
+Source code for an article "How to change iOS App icons programmatically"
