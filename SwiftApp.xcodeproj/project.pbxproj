@@ -13,6 +13,8 @@
 		1D0056BF29902EF9000AEC30 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D0056BD29902EF9000AEC30 /* Main.storyboard */; };
 		1D0056C129902EFA000AEC30 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D0056C029902EFA000AEC30 /* Assets.xcassets */; };
 		1D0056C429902EFA000AEC30 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D0056C229902EFA000AEC30 /* LaunchScreen.storyboard */; };
+		1D0056CD299031F6000AEC30 /* IconManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D0056CC299031F6000AEC30 /* IconManager.swift */; };
+		1D0056CF29903204000AEC30 /* AppIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D0056CE29903204000AEC30 /* AppIcon.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		1D0056C029902EFA000AEC30 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1D0056C329902EFA000AEC30 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1D0056C529902EFA000AEC30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1D0056CC299031F6000AEC30 /* IconManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconManager.swift; sourceTree = "<group>"; };
+		1D0056CE29903204000AEC30 /* AppIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppIcon.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,12 +63,22 @@
 				1D0056B729902EF9000AEC30 /* AppDelegate.swift */,
 				1D0056B929902EF9000AEC30 /* SceneDelegate.swift */,
 				1D0056BB29902EF9000AEC30 /* ViewController.swift */,
+				1D0056CB299031ED000AEC30 /* IconManager */,
 				1D0056BD29902EF9000AEC30 /* Main.storyboard */,
-				1D0056C029902EFA000AEC30 /* Assets.xcassets */,
 				1D0056C229902EFA000AEC30 /* LaunchScreen.storyboard */,
+				1D0056C029902EFA000AEC30 /* Assets.xcassets */,
 				1D0056C529902EFA000AEC30 /* Info.plist */,
 			);
 			path = SwiftApp;
+			sourceTree = "<group>";
+		};
+		1D0056CB299031ED000AEC30 /* IconManager */ = {
+			isa = PBXGroup;
+			children = (
+				1D0056CE29903204000AEC30 /* AppIcon.swift */,
+				1D0056CC299031F6000AEC30 /* IconManager.swift */,
+			);
+			path = IconManager;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,6 +152,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1D0056CF29903204000AEC30 /* AppIcon.swift in Sources */,
+				1D0056CD299031F6000AEC30 /* IconManager.swift in Sources */,
 				1D0056BC29902EF9000AEC30 /* ViewController.swift in Sources */,
 				1D0056B829902EF9000AEC30 /* AppDelegate.swift in Sources */,
 				1D0056BA29902EF9000AEC30 /* SceneDelegate.swift in Sources */,
@@ -285,6 +301,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 9N9MQ3U2TY;
@@ -313,6 +330,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 9N9MQ3U2TY;

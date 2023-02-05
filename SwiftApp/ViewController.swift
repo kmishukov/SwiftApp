@@ -8,12 +8,19 @@
 import UIKit
 
 class ViewController: UIViewController {
-
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
     }
 
+    @IBAction func setGreen(_ sender: Any) {
+        IconManager.setIcon(.green)
+    }
 
+    @IBAction func setBlue(_ sender: Any) {
+        IconManager.setIcon(.blue)
+    }
+
+    @IBAction func setDefault(_ sender: Any) {
+        IconManager.setIcon(.standard)
+    }
 }
-
